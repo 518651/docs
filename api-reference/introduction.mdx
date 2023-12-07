@@ -1,33 +1,15 @@
 ---
-title: 'Introduction'
-description: 'Example section for showcasing API endpoints'
+title: '介绍'
+description: 'API 文档使用场景、方法约定'
 ---
 
 <Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
+  注意：部分API文档或为临时方案，不为最终生产版本，请注意甄别
 </Note>
 
-## Welcome
+## Welcome Dev Document
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+目前 O3 PLAY 构建方向: [反作弊](https://mintlify.com/docs/api-playground/openapi/setup) 、 [插件](https://mintlify.com/docs/api-playground/mdx/configuration)、[运维调度](https://mintlify.com/docs/api-playground/mdx/configuration) 
 
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
->
-  View the OpenAPI specification file
-</Card>
 
-## Authentication
 
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
-
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
-```
